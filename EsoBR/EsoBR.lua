@@ -201,7 +201,7 @@ function EsoBR:OnInit(eventCode, addOnName)
 	EsoBRUI:ClearAnchors()
 	EsoBRUI:SetAnchor(EsoBR.Settings.Anchor[1], GuiRoot, EsoBR.Settings.Anchor[2], EsoBR.Settings.Anchor[3], EsoBR.Settings.Anchor[4])
 	
-	local LAM = LibStub("LibAddonMenu-2.0")
+	local LAM = LibAddonMenu2
 	LAM:RegisterAddonPanel("EsoBR", panelData)
 	LAM:RegisterOptionControls("EsoBR", optionsTable)
 	
@@ -331,7 +331,7 @@ function EsoBR_init()
 	ACHIEVEMENTS:UpdateSummary()
 	
 	if LibStub then
-		local LMP = LibStub("LibMediaProvider-1.0", true)
+		local LMP = LibMediaProvider
 		if LMP then
 			LMP.MediaTable.font["Univers 67"] = nil 
 			LMP.MediaTable.font["Univers 57"] = nil
