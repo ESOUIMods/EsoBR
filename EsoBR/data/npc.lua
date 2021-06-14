@@ -1,4 +1,4 @@
-﻿npcNames = {}
+npcNames = {}
 -- instrukcja ["br"] = "En",
 npcNames = {
 	["4246 mózg"] = "4246 Brain",
