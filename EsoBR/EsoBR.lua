@@ -3,12 +3,12 @@ local LMP = LibMediaProvider
 
 local EsoBR = {}
 EsoBR.Flags = { "en", "br" }
-EsoBR.Version = "1.3.13.0"
+EsoBR.Version = "1.3.14.0"
 EsoBR.Name = "EsoBR"
 EsoBR.Defaults = {
 	Anchor = { BOTTOMRIGHT, BOTTOMRIGHT, 0, 7 },
-	ShowNPC = "Somente Português",
-	ShowLocations = "Somente Português",
+	ShowNPC = "Português+Inglês",
+	ShowLocations = "Português+Inglês",
 	IsFirstLaunchGlobal = true,
 }
 EsoBR.DefaultsCharacter = {
