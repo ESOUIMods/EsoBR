@@ -1,8 +1,8 @@
 ## Title: Eso|c1bc426B|cead519R|r
 ## Author: |c18a7eaMestre Frooke // @mestrefrooke|r
 ## Description: Unofficial Portuguese Translation for ESO.
-## Version: 1.3.16.0
-## AddOnVersion: 13160
+## Version: 1.3.7.80
+## AddOnVersion: 13780
 ## APIVersion: 101031 101032
 ## SavedVariables: EsoBRVariables
 ## DependsOn: LibAddonMenu-2.0>=32
