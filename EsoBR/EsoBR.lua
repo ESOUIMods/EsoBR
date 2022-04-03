@@ -3,7 +3,7 @@ local LMP = LibMediaProvider
 
 local EsoBR = {}
 EsoBR.Flags = { "en", "br" }
-EsoBR.Version = "1.4.0"
+EsoBR.Version = "1.5.02"
 EsoBR.Name = "EsoBR"
 EsoBR.Defaults = {
 	Anchor = { BOTTOMRIGHT, BOTTOMRIGHT, 0, 7 },
